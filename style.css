@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(189, 172, 172);
+    height: auto;
+}
+
+header {
+    background-color: black;
+    height: 200px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+header li {
+    display: inline-block;
+    width: 100px;
+    color: black;
+    background-color: white;
+    height: 50px;
+}
+
+
+
+
+#logo {
+    width: 200px;
+    position: absolute;
+    top: 0 px;
+}
+
+/* wht doesnt it work????? */
+#right {
+    float: right;
+}
+
+/* how to center sections */
+section {
+    margin-top: 250px; 
+}
+
+.separator { 
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+} 
+
+.category {
+    
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+   
+}
+
+.category.workout {
+    background-image: url(./Pictures/dumbell.png);
+    background-size: cover;
+}
+
+.category.diet {
+    background-image: url(./Pictures/diet.png);
+    background-size: cover;
+}
+
+.category.supplements {
+    background-image: url(./Pictures/supplement.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+.category h3 {
+    text-align: center;
+}
+
+.description {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.description p {
+    
+    text-align: center;
+    font-size: 10px;
+}
+
+footer {
+    border-top-style: solid;
+    position: relative; 
+    top: 300px;
+    width: 100%;
+    height: 10px;
+    background-color: red;
+}
+
