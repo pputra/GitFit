@@ -54,6 +54,12 @@ section {
     margin-top: 250px; 
 }
 
+.banner h2{
+    
+    text-align: center;
+    font-size: 53px;
+}
+
 .separator { 
     
     width: 100%;
