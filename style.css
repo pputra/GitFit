@@ -19,6 +19,7 @@ header {
 nav {
     position: absolute;
     bottom: 0px;
+    width: 100%;
 }
 
 
@@ -29,6 +30,7 @@ header li {
     color: black;
     background-color: white;
     height: 50px;
+    margin-right: 4px;
 }
 
 
@@ -42,7 +44,8 @@ header li {
 
 /* wht doesnt it work????? */
 #right {
-    float: right;
+    position: absolute;
+    right: 0px;
 }
 
 /* how to center sections */
@@ -67,8 +70,10 @@ section {
     width: 200px;
     background-color: white;
     float: left;
-    margin-right: 10px;
-   
+}
+
+.category a {
+    text-decoration: none;
 }
 
 
@@ -76,16 +81,19 @@ section {
 .category.workout {
     background-image: url(./Pictures/dumbell.png);
     background-size: cover;
+    margin-right: 10px;
 }
 
 .category.diet {
     background-image: url(./Pictures/diet.png);
     background-size: cover;
+    margin-left: 10px;
 }
 
 .category.supplements {
     background-image: url(./Pictures/supplement.png);
     background-size: cover;
+    margin-right: 10px;
 }
 
 
@@ -98,7 +106,7 @@ section {
 }
 
 .description {
-    background-color: white;
+    background-color: black;
     height: 200px;
     width: 200px;
     float: left;
