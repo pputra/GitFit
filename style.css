@@ -5,6 +5,7 @@
 body {
     background-color:rgb(189, 172, 172);
     height: auto;
+    margin: 0px;
 }
 
 header {
@@ -62,6 +63,7 @@ section {
 .wrapper {
     position: relative;
     display: table;
+    margin: 0 auto;
 }
 
 .category {
