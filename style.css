@@ -55,7 +55,8 @@ section {
     margin-top: 250px; 
 }
 
-.banner h2{
+.banner h2,
+.title h2{
     
     text-align: center;
     font-size: 53px;
@@ -133,6 +134,10 @@ footer {
     top: 300px;
     width: 100%;
     height: 10px;
+}
+
+.definition {
+    text-align: center;
 }
 
 
