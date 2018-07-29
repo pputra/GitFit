@@ -22,8 +22,6 @@ nav {
     width: 100%;
 }
 
-
-
 header li {
     display: inline-block;
     width: 150px;
@@ -33,18 +31,11 @@ header li {
     margin-right: 4px;
 }
 
-
-
-
-
-
 #logo {
     width: 200px;
     position: absolute;
     top: 0 px;
 }
-
-
 
 section {
     margin-top: 250px; 
@@ -81,8 +72,6 @@ section {
     text-decoration: none;
 }
 
-
-
 .category.workout {
     background-image: url(./Pictures/dumbell.png);
     background-size: cover;
@@ -100,10 +89,6 @@ section {
     background-size: cover;
     margin-right: 10px;
 }
-
-
-
-
 
 
 .category h3 {
