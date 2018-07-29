@@ -44,13 +44,8 @@ header li {
     top: 0 px;
 }
 
-/* wht doesnt it work????? */
-#right {
-    position: absolute;
-    right: 0px;
-}
 
-/* how to center sections */
+
 section {
     margin-top: 250px; 
 }
